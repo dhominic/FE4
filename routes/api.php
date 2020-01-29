@@ -14,9 +14,9 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::any('exercise-1', 'Exercise1');
-Route::any('exercise-2', 'Exercise2');
-Route::any('exercise-3', 'Exercise3@index');
-Route::any('exercise-3/store', 'Exercise3@store');
-Route::any('exercise-final', 'ExerciseFinal@login');
-Route::any('exercise-final/store', 'ExerciseFinal@store');
+Route::any('dhominic-1', 'Exercise1');
+Route::any('dhominic-2', 'Exercise2');
+Route::any('dhominic-3', 'Exercise3@index');
+Route::any('dhominic-3/store', 'Exercise3@store');
+Route::any('dhominic-final', 'ExerciseFinal@login');
+Route::any('dhominic-final/store', 'ExerciseFinal@store');
