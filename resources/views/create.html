@@ -34,7 +34,7 @@
             $('form').on('submit', e => {
                 $.ajax({
                     'type': 'post',
-                    'url': 'http://dhominic.herokuapp.com/api/dhominic-final/store',
+                    'url': 'https://dhominic.herokuapp.com/api/dhominic-final/store',
                     'data': $('form').serialize(),
                     'success': e => {
                         $('form').trigger('reset')
